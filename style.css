@@ -1,78 +1,4 @@
 
-@media (width <= 750px) {
-    .classHead{
-        font-size: large;
-    }
-    ul,a{
-        display: '';
-    }
-    .container{
-        font-size: 40px;
-        height: 300px;
-    }
-    .logo{
-        font-size: 25px;
-    }
-    .cont1{
-        grid-template-columns: auto auto;
-        grid-template-rows: auto auto;
-    }
-    .nav{
-        display: none;
-    }
- }
- @media (width <= 450px) {
-    .classHead{
-        font-size: small;
-    }
-    .classHead > a{
-        display: '';
-    }
-    .container{
-        font-size: 40px;
-        height: 300px;
-    }
-    .logo{
-        font-size: 20px;
-    }
-    .cont1{
-    grid-template-columns: auto ;
-    grid-template-rows: auto auto auto auto;
-    }
-    .nav{
-        display: none;
-    }
-    .cont-service{
-        grid-template-columns: auto;
-        grid-template-rows: auto auto;
-    }
- }
-
- @media (width <= 400px){
-    .classHead{
-        font-size: small;
-    }
-    .link{
-        display: none;
-    }
-    .container{
-        font-size: 20px;
-        height: 250px;
-    } 
-    .logo{
-        font-size: 15px;
-    }
-    .cont1{
-    grid-template-columns: auto ;
-    grid-template-rows: auto auto auto auto;
-    }
-    .nav{
-        display: flex;
-    }
-    .cont-service{
-        grid-template-columns: auto;
-    }
- }
 
 *{
     margin:0;
@@ -315,3 +241,77 @@ textarea{
 
 
 
+ @media (width <= 750px) {
+    .classHead{
+        font-size: large;
+    }
+    ul,a{
+        display: '';
+    }
+    .container{
+        font-size: 40px;
+        height: 300px;
+    }
+    .logo{
+        font-size: 25px;
+    }
+    .cont1{
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+    }
+    .nav{
+        display: none;
+    }
+ }
+ @media (width <= 450px) {
+    .classHead{
+        font-size: small;
+    }
+    .classHead > a{
+        display: '';
+    }
+    .container{
+        font-size: 40px;
+        height: 300px;
+    }
+    .logo{
+        font-size: 20px;
+    }
+    .cont1{
+    grid-template-columns: auto ;
+    grid-template-rows: auto auto auto auto;
+    }
+    .nav{
+        display: none;
+    }
+    .cont-service{
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+    }
+ }
+
+ @media (width <= 400px){
+    .classHead{
+        font-size: small;
+    }
+    .link{
+        display: none;
+    }
+    .container{
+        font-size: 20px;
+        height: 250px;
+    } 
+    .logo{
+        font-size: 15px;
+    }
+    .cont1{
+    grid-template-columns: auto ;
+    grid-template-rows: auto auto auto auto;
+    }
+    .nav{
+        display: flex;
+    }
+    .cont-service{
+        grid-template-columns: auto;
+    }
+ }
