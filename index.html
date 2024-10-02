@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div  >
+       <ul class="classHead">
+        <li><h4><a href=""> TYS</a> </h4></li>
+        <li class="link" onclick="handleHome()"> Service </li>
+        <li class="link"  onclick="handleCall('footer')"> Contact</a></li>
+        <li class="link"><a href=""> News</a></li>
+       </ul>
+    </div>
+    <div onclick="handleLink()" class="nav">...
+    </div>
+    <div   id="link" class="navbar">
+        <ul><li><a href="" > Home</a></li>
+            <li  onclick="handleHome()"> Service</li>
+            <li  onclick="handleCall('footer')"> Contact</li>
+            <li><a href=""> News</a></li>  
+        </ul>
+    </div>
+
+
+
+
+    <div id="home">
+    <div class="logo">
+        <h5  style="margin: 5px;">Test Your Soil </h5>
+          <div id="nur"  style="margin-right: 20px; " onclick="handleCall('admin')">..</div> 
+
+    </div>
+    <div  style="display:none; background-color: aliceblue;
+              border-radius:10px; color: rgb(34, 34, 227); padding: 5px;"  id="admin"> welcome <br> Admin</div>
+    <div class="container">
+        <div class="container2">
+        <h3>knowing your soil</h3>
+        <h4 >best practice for profitable farming</h4>
+    </div></div>
+    
+    <div class="scroll"> <h1>our services </h1></div>
+    <div class="cont1">
+        <div class="cont" onclick="handle('download.jpg')">
+             <h3>Soil Analysis <img  src="download.jpg" width="200px" height="200px"/></h3></div>
+        
+       <div class="cont" onclick="handle('download2.jpeg')">
+             <h3>Plant Analysis <img src="download2.jpeg" width="200px" height="200px"/></h3></div>    
+        
+      <div class="cont" onclick="handle('soil_pic.jpg')"> 
+            <h3>Fertilizer Analysis <img src="soil_pic.jpg" width="200px" height="200px"/></h3></div>
+       
+      <div class="cont" onclick="handle('download.jpeg')">
+             <h3>Soil Treatment <img src="download.jpeg" width="200px" height="200px"/></h3></div>
+        
+      <div class="cont" onclick="handle('acidity.jpeg')"> 
+            <h3>Soil Consultation <img src="acidity.jpeg" width="200px" height="200px"/></h3></div>
+       
+      <div class="cont" onclick="handle('soil_pic2.jpg')" >
+            <h3>Chemical Supply <img src="soil_pic2.jpg" width="200px" height="200px"/></h3> </div>
+    </div>
+</div>
+
+
+
+
+    <div id="service" class="cont-service" >
+        <div>
+         <h3 class="center">Our Service</h3>
+        <div class="service">
+         <h5> <ul>
+             <li onclick="handle('download.jpg','Soil Analysis')">Soil Analysis</li>
+             <li onclick="handle('download2.jpeg','Plant Analysis')"> Plant Analysis</li>
+             <li onclick="handle('soil_pic.jpg','Fertilizer Analysis')">Fertilizer Analysis</li>
+             <li onclick="handle('download.jpeg','Soil Treatment')">Soil Treatment</li>
+             <li onclick="handle('acidity.jpeg','Soil Consultation')">Soil Consultation</li>
+             <li onclick="handle('soil_pic2.jpg','Chemical Supply')">Chemical Supply</li>
+          </ul>
+        </h5>
+        </div>
+        </div>
+        <div id="item" ></div>
+</div>
+
+<div class="admin" id="admin">
+    <h3> welcome Admin</h3> <br>
+    
+    <div class="div">
+    <h5>News update </h5> <br>
+
+     
+    <textarea cols="30"  rows="5" placeholder="write_news..." ></textarea>
+    <button>post_news </button></div>
+</div>
+
+
+
+    <div id="footer" class="footer">
+     <h3>TYS</h3>
+     <h5> Soil Test Laboratory that <br> Test, <br> Analyze <br> and Recommend <br> the soil nutrient adjustment.
+     </h5>
+     
+     <h4 style="margin-top: 30px;"> Location:</h4>
+     <p> Kafe District <br> Life-camp <br> Abuja</p>
+     <h4 style="margin-top: 30px;"> contact:</h4>
+     <p> Email:tys@gmail.com <br> 08085943776  , 07037638761 </p>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
