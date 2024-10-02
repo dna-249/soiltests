@@ -290,7 +290,7 @@ textarea{
     }
  }
 
- @media(width <= 325px){
+ @media (width <= 400px){
     .classHead{
         font-size: small;
     }
